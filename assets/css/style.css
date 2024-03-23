@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #040404;
+  background-color: #414040;
   color: #fff;
   position: relative;
   background: transparent;
@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #4c4c4c77 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -300,7 +300,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: #4c4c4c76;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
@@ -361,7 +361,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: #2d2d2d5a;
   padding: 30px;
 }
 
@@ -462,7 +462,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #4c4c4c7d;
   padding: 12px;
   color: #22bcd3;
   border-radius: 50px;
@@ -696,7 +696,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: rgba(204, 204, 204, 0.1);
+  background: rgba(19, 15, 15, 0.285);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
 }
@@ -1006,6 +1006,18 @@ section .container {
   height: auto;
 }
 
+/* it is for project div adjustment */
+
+.portfolio-wrap {
+  width: 382px;
+  height: 242px;
+  overflow: hidden; /* Ensure images do not overflow the specified dimensions */
+}
+.portfolio-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while covering the specified dimensions */
+}
 
 
 /*--------------------------------------------------------------
@@ -1015,7 +1027,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.539);
 }
 
 .contact .info-box i.bx {
@@ -1024,7 +1036,7 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(34, 34, 34, 0.393);
 }
 
 .contact .info-box h3 {
@@ -1062,7 +1074,7 @@ section .container {
 
 .contact .php-email-form {
   padding: 30px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(40, 39, 39, 0.08);
 }
 
 .contact .php-email-form .error-message {
