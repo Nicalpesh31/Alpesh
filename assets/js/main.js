@@ -2,9 +2,39 @@
 * Template Name: Personal
 * Updated: Jan 29 2024 with Bootstrap v5.3.2
 * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
+* Author: Alpesh Nichat.com
 * License: https://bootstrapmade.com/license/
 */
+
+// // Get the list of nav items
+// const navItems = document.querySelectorAll('#navbar ul li');
+// 
+
+// // Function to change the color of each nav item with a delay
+// function changeColor() {
+//   let delay = 1000; // 1 second delay
+//   navItems.forEach((item, index) => {
+//     setTimeout(() => {
+//       item.style.color = getRandomColor(); // Change color to a random color
+//     }, delay * index);
+//   });
+// }
+
+// // Function to generate a random color
+// function getRandomColor() {
+//   const letters = '0123456789ABCDEF';
+//   let color = '#';
+//   for (let i = 0; i < 6; i++) {
+//     color += letters[Math.floor(Math.random() * 16)];
+//   }
+//   return color;
+// }
+
+// // Call the changeColor function
+// changeColor();
+
+
+
 (function() {
   "use strict";
 
